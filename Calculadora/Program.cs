@@ -1,7 +1,6 @@
 ﻿using EspacioCalculadora;
 
 string? Input = "";
-bool Continuar = true;
 int Operacion = 0;
 double Numero = 0;
 
@@ -53,4 +52,4 @@ do {
     }
 
     Console.WriteLine($"Resultado de la operacion: {Calc.Resultado}\n");
-} while (Continuar);
+} while (true);
